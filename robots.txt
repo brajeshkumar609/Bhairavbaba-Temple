@@ -1,0 +1,39 @@
+# Robots.txt for Bhairav Baba Temple Website
+# Allow search engines to crawl and index all content
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /photos/
+Allow: /sitemap.xml
+
+# Disallow admin/private areas (if any)
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /.github/
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Specific rules for other search engines
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Point to sitemap
+Sitemap: https://bhairavbaba-temple.vercel.app/sitemap.xml

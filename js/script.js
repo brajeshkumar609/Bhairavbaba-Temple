@@ -27,7 +27,7 @@ function initAOS() {
             once: false,
             mirror: true,
             offset: 100,
-            disable: 'mobile'
+            disable: false // FIXED: Enable AOS on all devices including mobile
         });
         console.log('✨ AOS animations initialized successfully');
     } else {

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.mobile.googlebot.org/schemas/mobile/1.0">
+
+    <!-- Home Page -->
+    <url>
+        <loc>https://bhairavbaba-temple.vercel.app</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://bhairavbaba-temple.vercel.app/images/hero-bhairav.jpg</image:loc>
+            <image:title>Bhairav Baba Temple - Hero Image</image:title>
+            <image:caption>Divine Kaal Bhairav Baba Temple in Areraj, Motihari, East Champaran, Bihar</image:caption>
+        </image:image>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://bhairavbaba-temple.vercel.app#about</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Significance Section -->
+    <url>
+        <loc>https://bhairavbaba-temple.vercel.app#significance</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Gallery Section -->
+    <url>
+        <loc>https://bhairavbaba-temple.vercel.app#gallery</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://bhairavbaba-temple.vercel.app/photos/temple1.jpg</image:loc>
+            <image:title>Bhairav Baba Temple Gallery</image:title>
+            <image:caption>Sacred temple photos from Areraj, Motihari</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Contact Section -->
+    <url>
+        <loc>https://bhairavbaba-temple.vercel.app#contact</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
